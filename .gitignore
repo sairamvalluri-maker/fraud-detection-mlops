@@ -1,0 +1,28 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.venv/
+.env
+.env.*
+
+# Build
+dist/
+build/
+
+# Logs & Artifacts
+mlruns/
+mlflow/
+artifacts/
+models/
+*.log
+
+# Data
+data/*.csv
+data/*.parquet
+
+# OS
+.DS_Store
